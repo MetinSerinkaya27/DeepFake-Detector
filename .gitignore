@@ -1,10 +1,18 @@
+# React & Frontend
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+.env
+
+# Python & Backend
 __pycache__/
-*.py[cod]
-*$py.class
-.venv/
-env/
+*/__pycache__/
 venv/
-ENV/
-bin/
-lib/
-reports/Doxygen/
+env/
+
+# AI Modelleri ve Veri Setleri (GitHub'ı çökertmemek için)
+*.pth
+data/
+datasets/
+temp_*.jpg
+temp_*.png

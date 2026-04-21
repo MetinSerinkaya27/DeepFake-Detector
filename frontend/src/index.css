@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#0a0c10] antialiased selection:bg-red-500/30;
+  }
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0a0c10; }
+::-webkit-scrollbar-thumb { background: #1f2937; border-radius: 10px; }
