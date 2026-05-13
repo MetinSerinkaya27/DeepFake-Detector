@@ -30,7 +30,7 @@ def train_vit_final():
     model = ViTDetector().to(device)
     criterion = nn.BCELoss()
     
-    # ÇOK ÖNEMLİ: ViT'in eski zekasını silmemek için hızı (LR) inanılmaz düşük tutuyoruz
+    # ViT'in eski zekasını silmemek için hızı (LR) inanılmaz düşük tutuyoruz
     optimizer = optim.Adam(model.parameters(), lr=0.00003) 
 
     best_val_acc = 0.0

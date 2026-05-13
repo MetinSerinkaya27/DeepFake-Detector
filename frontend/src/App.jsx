@@ -5,7 +5,7 @@ function App() {
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [stats, setStats] = useState(null);
-  const [algo, setAlgo] = useState('VOLTRON'); // Varsayılanı en havalısı yaptık
+  const [algo, setAlgo] = useState('VOLTRON'); 
   const [loading, setLoading] = useState(false);
   const [logs, setLogs] = useState(["[SİSTEM] Tüm ajanlar çevrimiçi. Sistem hazır."]);
 
